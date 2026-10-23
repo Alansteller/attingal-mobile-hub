@@ -1,0 +1,445 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Attingal Mobile Hub demo for smartphones, accessories and mobile repair services.">
+  <title>Attingal Mobile Hub | Phones & Repairs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="site-header" id="home">
+    <a class="brand" href="#home">
+      <span class="brand-icon">📱</span>
+      <span>
+        <strong>ATTINGAL <span>MOBILE HUB</span></strong>
+        <small>YOUR MOBILE & ACCESSORIES STORE</small>
+      </span>
+    </a>
+
+    <nav class="navbar" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#categories">Categories</a>
+      <a href="#repairs">Repair Services</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a class="header-cta" href="#products">Explore Products ↗</a>
+  </header>
+
+  <main>
+    <!-- HERO BANNER -->
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">SMART TECH. BETTER EVERYDAY.</p>
+        <h1>Find Your <span>Next Phone.</span></h1>
+        <p>
+          Discover smartphones, everyday accessories and
+          mobile repair services in one place.
+        </p>
+        <a class="button" href="#products">Explore Products →</a>
+        <p class="demo-note">
+          Portfolio demo — products, prices and contact details are examples.
+        </p>
+      </div>
+
+      <div class="hero-image">
+        <img
+          src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1000&q=85"
+          alt="Smartphone product"
+        >
+      </div>
+    </section>
+
+    <!-- PROMOTIONS -->
+    <section class="promo-strip">
+      <article class="promo-card">
+        <span class="promo-icon">✦</span>
+        <div>
+          <h2>Discover New Tech</h2>
+          <p>Explore phones for everyday life.</p>
+        </div>
+      </article>
+
+      <article class="promo-card">
+        <span class="promo-icon">🔧</span>
+        <div>
+          <h2>Repair Services</h2>
+          <p>Explore common mobile repair services.</p>
+          <a href="#repairs" class="text-link">View services →</a>
+        </div>
+      </article>
+    </section>
+
+    <!-- CATEGORIES -->
+    <section class="section" id="categories">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">BROWSE THE COLLECTION</p>
+          <h2>Shop by Category</h2>
+        </div>
+      </div>
+
+      <div class="category-grid">
+        <a class="category-card" href="#products">
+          <img
+            src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=700&q=80"
+            alt="Smartphone"
+            loading="lazy"
+          >
+          <span class="category-overlay">
+            <strong>Smartphones</strong>
+            <small>Explore phones →</small>
+          </span>
+        </a>
+
+        <a class="category-card" href="#products">
+          <img
+            src="https://images.unsplash.com/photo-1605236453806-6ff36851218e?auto=format&fit=crop&w=700&q=80"
+            alt="Mobile accessories"
+            loading="lazy"
+          >
+          <span class="category-overlay">
+            <strong>Accessories</strong>
+            <small>Everyday essentials →</small>
+          </span>
+        </a>
+
+        <a class="category-card" href="#products">
+          <img
+            src="https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?auto=format&fit=crop&w=700&q=80"
+            alt="Wireless audio accessories"
+            loading="lazy"
+          >
+          <span class="category-overlay">
+            <strong>Audio</strong>
+            <small>Discover audio →</small>
+          </span>
+        </a>
+      </div>
+    </section>
+
+    <!-- MOBILE REPAIR SERVICES -->
+    <section class="section" id="repairs">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">REPAIR • RESTORE • REUSE</p>
+          <h2>Mobile Repair Services</h2>
+        </div>
+        <span class="demo-label">SERVICE ENQUIRIES</span>
+      </div>
+
+      <p class="repair-intro">
+        Choose the type of mobile repair you need.
+        Select a service to prepare your demo enquiry.
+      </p>
+
+      <div class="repair-grid">
+        <article class="repair-card">
+          <div class="repair-icon">📱</div>
+          <h3>Touch Glass Repair</h3>
+          <p>Cracked glass or touch response problems.</p>
+          <button class="repair-link" type="button"
+            data-repair="Touch glass repair">Enquire about repair →</button>
+        </article>
+
+        <article class="repair-card">
+          <div class="repair-icon">🖥️</div>
+          <h3>Display Replacement</h3>
+          <p>Broken screen, lines or display problems.</p>
+          <button class="repair-link" type="button"
+            data-repair="Display replacement">Enquire about repair →</button>
+        </article>
+
+        <article class="repair-card">
+          <div class="repair-icon">🔋</div>
+          <h3>Battery Replacement</h3>
+          <p>Fast battery drain or battery issues.</p>
+          <button class="repair-link" type="button"
+            data-repair="Battery replacement">Enquire about repair →</button>
+        </article>
+
+        <article class="repair-card">
+          <div class="repair-icon">⚙️</div>
+          <h3>Software Services</h3>
+          <p>Updates, app issues and software troubleshooting.</p>
+          <button class="repair-link" type="button"
+            data-repair="Software services">Enquire about repair →</button>
+        </article>
+
+        <article class="repair-card">
+          <div class="repair-icon">🔊</div>
+          <h3>Speaker Repair</h3>
+          <p>Low volume, distorted sound or no audio.</p>
+          <button class="repair-link" type="button"
+            data-repair="Speaker repair">Enquire about repair →</button>
+        </article>
+
+        <article class="repair-card">
+          <div class="repair-icon">🎙️</div>
+          <h3>Microphone Repair</h3>
+          <p>Voice recording or calling audio problems.</p>
+          <button class="repair-link" type="button"
+            data-repair="Microphone repair">Enquire about repair →</button>
+        </article>
+
+        <article class="repair-card">
+          <div class="repair-icon">🔌</div>
+          <h3>Charging Port Repair</h3>
+          <p>Charging connection or charging faults.</p>
+          <button class="repair-link" type="button"
+            data-repair="Charging port repair">Enquire about repair →</button>
+        </article>
+
+        <article class="repair-card">
+          <div class="repair-icon">📷</div>
+          <h3>Camera Repair</h3>
+          <p>Camera focus, image or camera-app problems.</p>
+          <button class="repair-link" type="button"
+            data-repair="Camera repair">Enquire about repair →</button>
+        </article>
+      </div>
+    </section>
+
+    <!-- FEATURED PRODUCTS -->
+    <section class="section" id="products">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">OUR DEMO COLLECTION</p>
+          <h2>Featured Products</h2>
+        </div>
+        <span class="demo-label">SAMPLE PRODUCTS</span>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <div class="product-image">
+            <img
+              src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=600&q=80"
+              alt="Smartphone Alpha demo image"
+              loading="lazy"
+            >
+          </div>
+          <div class="product-info">
+            <span class="product-type">SMARTPHONE</span>
+            <h3>Smartphone Alpha</h3>
+            <p class="description">Everyday performance and modern style.</p>
+            <p class="price">₹12,999</p>
+            <button class="button button-small product-enquiry"
+              type="button" data-product="Smartphone Alpha">
+              Enquire ↗
+            </button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image">
+            <img
+              src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=600&q=80"
+              alt="Smartphone Pro demo image"
+              loading="lazy"
+            >
+          </div>
+          <div class="product-info">
+            <span class="product-type">SMARTPHONE</span>
+            <h3>Smartphone Pro</h3>
+            <p class="description">A premium-style phone for the demo shop.</p>
+            <p class="price">₹18,999</p>
+            <button class="button button-small product-enquiry"
+              type="button" data-product="Smartphone Pro">
+              Enquire ↗
+            </button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image">
+            <img
+              src="https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?auto=format&fit=crop&w=600&q=80"
+              alt="Wireless earbuds demo image"
+              loading="lazy"
+            >
+          </div>
+          <div class="product-info">
+            <span class="product-type">AUDIO</span>
+            <h3>Wireless Earbuds</h3>
+            <p class="description">Compact audio for music on the go.</p>
+            <p class="price">₹1,499</p>
+            <button class="button button-small product-enquiry"
+              type="button" data-product="Wireless Earbuds">
+              Enquire ↗
+            </button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image">
+            <img
+              src="https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?auto=format&fit=crop&w=600&q=80"
+              alt="Power bank demo image"
+              loading="lazy"
+            >
+          </div>
+          <div class="product-info">
+            <span class="product-type">ACCESSORY</span>
+            <h3>Power Bank</h3>
+            <p class="description">Portable power for daily devices.</p>
+            <p class="price">₹999</p>
+            <button class="button button-small product-enquiry"
+              type="button" data-product="Power Bank">
+              Enquire ↗
+            </button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT AND ENQUIRY -->
+    <section class="contact-section" id="contact">
+      <div class="contact-copy">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>How can we help you?</h2>
+        <p>
+          Select a product or repair service to prepare a demo enquiry.
+          This form does not send information to a business.
+        </p>
+      </div>
+
+      <form id="enquiry-form" class="enquiry-form">
+        <label for="enquiry-type">Enquiry type</label>
+        <select id="enquiry-type" name="enquiry-type">
+          <option value="Repair">Mobile repair</option>
+          <option value="Product">Product enquiry</option>
+        </select>
+
+        <label for="repair-type">Repair service</label>
+        <select id="repair-type" name="repair-type">
+          <option value="">Choose a repair service</option>
+          <option>Touch glass repair</option>
+          <option>Display replacement</option>
+          <option>Battery replacement</option>
+          <option>Software services</option>
+          <option>Speaker repair</option>
+          <option>Microphone repair</option>
+          <option>Charging port repair</option>
+          <option>Camera repair</option>
+        </select>
+
+        <label for="product-type">Product</label>
+        <select id="product-type" name="product-type">
+          <option value="">Choose a product</option>
+          <option>Smartphone Alpha</option>
+          <option>Smartphone Pro</option>
+          <option>Wireless Earbuds</option>
+          <option>Power Bank</option>
+        </select>
+
+        <label for="device-model">Your phone model (optional)</label>
+        <input id="device-model" name="device-model"
+          type="text" placeholder="e.g. Samsung Galaxy A series">
+
+        <button class="button" type="submit">Prepare Demo Enquiry</button>
+        <p id="form-message" class="form-message" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <a class="brand" href="#home">
+        <span class="brand-icon">📱</span>
+        <span>
+          <strong>ATTINGAL <span>MOBILE HUB</span></strong>
+          <small>YOUR MOBILE & ACCESSORIES STORE</small>
+        </span>
+      </a>
+      <p>
+        A sample storefront created as a web-development portfolio project.
+      </p>
+    </div>
+
+    <div class="footer-links">
+      <h2>Quick Links</h2>
+      <a href="#home">Home</a>
+      <a href="#categories">Categories</a>
+      <a href="#repairs">Repair Services</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="footer-contact">
+      <h2>Demo Information</h2>
+      <p>Location: Attingal, Kerala (example)</p>
+      <p>Products, prices and availability are fictional.</p>
+      <p>No real enquiries are sent from this demo.</p>
+    </div>
+
+    <div class="footer-bottom">
+      © 2026 Attingal Mobile Hub Demo · Built with HTML, CSS and JavaScript
+    </div>
+  </footer>
+
+  <!-- SMALL DEMO INTERACTIONS -->
+  <script>
+    const enquiryType = document.getElementById("enquiry-type");
+    const repairType = document.getElementById("repair-type");
+    const productType = document.getElementById("product-type");
+    const formMessage = document.getElementById("form-message");
+
+    document.querySelectorAll("[data-repair]").forEach((button) => {
+      button.addEventListener("click", () => {
+        enquiryType.value = "Repair";
+        repairType.value = button.dataset.repair;
+        productType.value = "";
+        document.getElementById("contact").scrollIntoView({
+          behavior: "smooth"
+        });
+      });
+    });
+
+    document.querySelectorAll("[data-product]").forEach((button) => {
+      button.addEventListener("click", () => {
+        enquiryType.value = "Product";
+        productType.value = button.dataset.product;
+        repairType.value = "";
+        document.getElementById("contact").scrollIntoView({
+          behavior: "smooth"
+        });
+      });
+    });
+
+    enquiryType.addEventListener("change", () => {
+      const isRepair = enquiryType.value === "Repair";
+      repairType.disabled = !isRepair;
+      productType.disabled = isRepair;
+    });
+
+    enquiryType.dispatchEvent(new Event("change"));
+
+    document.getElementById("enquiry-form").addEventListener("submit", (event) => {
+      event.preventDefault();
+
+      const isRepair = enquiryType.value === "Repair";
+      const selection = isRepair ? repairType.value : productType.value;
+
+      if (!selection) {
+        formMessage.textContent = isRepair
+          ? "Please choose a repair service first."
+          : "Please choose a product first.";
+        return;
+      }
+
+      const model = document.getElementById("device-model").value.trim();
+      formMessage.textContent =
+        "Demo enquiry prepared: " + selection +
+        (model ? " · Phone model: " + model : "") +
+        ". Nothing has been sent.";
+    });
+  </script>
+</body>
+</html>
